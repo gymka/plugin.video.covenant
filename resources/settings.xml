@@ -197,7 +197,7 @@
         <setting id="streamlord.pass" type="text" option="hidden" label="32307" default="" />
         <setting type="sep" />
         <setting type="lsep" label="Ororo.tv" />
-        <setting id="ororo.user" type="text" label="32304" option="hidden" default="" />
+        <setting id="ororo.user" type="text" label="32304" default="" />
         <setting id="ororo.pass" type="text" option="hidden" label="32307" default="" />
         <setting type="sep" />
         <setting type="lsep" label="Seriesever.net" />
@@ -205,7 +205,7 @@
         <setting id="seriesever.pass" type="text" option="hidden" label="32307" default="" />
         <setting type="sep" />
         <setting type="lsep" label="ALLUC" />
-        <setting id="alluc.api" type="text" option="hidden" label="32309" default="" />
+        <setting id="alluc.api" type="text" label="32309" default="" />
         <setting id="alluc.download" type="bool" label="32009" default="false" />        
     </category>
     <category label="32541">

@@ -9,3 +9,4 @@ cache/*
 .pydevproject
 .vscode/
 *xbmcstubs*
+.git/

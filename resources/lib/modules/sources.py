@@ -572,7 +572,7 @@ class sources:
             if 'checkquality' in i and i['checkquality'] == True: 
                 if not i['source'].lower() in self.hosthqDict and i['quality'] not in ['SD', 'SCR', 'CAM']: i.update({'quality': 'SD'})
 
-        local = [i for i in self.sources if 'local' in i and i['local'] == True]
+        local = [i for i in self.sources if 'local' in i and i['local'] == True] 
         for i in local: i.update({'language': self._getPrimaryLang() or 'en'})
         self.sources = [i for i in self.sources if not i in local]
 

@@ -561,6 +561,8 @@ class sources:
 
         captcha = control.setting('hosts.captcha')
 
+    HEVC = control.setting('HEVC')
+        
         random.shuffle(self.sources)
 
         if provider == 'true':
@@ -663,6 +665,13 @@ class sources:
 
             self.sources[i]['label'] = label.upper()
 
+    if HEVC == 'true':                                                               
+		filter += [i for i in self.sources if 'HEVC' not in ''.join(i['label'])] 
+        
+    if not HEVC == 'true':
+		filter += [i for i in self.sources]
+    self.sources = filter
+    
         return self.sources
 
 

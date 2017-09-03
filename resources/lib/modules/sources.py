@@ -159,7 +159,7 @@ class sources:
                 item.setArt({'icon': thumb, 'thumb': thumb, 'poster': poster, 'banner': banner})
 
                 item.setProperty('Fanart_Image', fanart)
-                
+
                 video_streaminfo = {'codec': 'h264'}
                 item.addStreamInfo('video', video_streaminfo)
 
@@ -561,18 +561,18 @@ class sources:
 
         captcha = control.setting('hosts.captcha')
 
-    HEVC = control.setting('HEVC')
-        
+        HEVC = control.setting('HEVC')
+
         random.shuffle(self.sources)
 
         if provider == 'true':
             self.sources = sorted(self.sources, key=lambda k: k['provider'])
 
         for i in self.sources:
-            if 'checkquality' in i and i['checkquality'] == True: 
+            if 'checkquality' in i and i['checkquality'] == True:
                 if not i['source'].lower() in self.hosthqDict and i['quality'] not in ['SD', 'SCR', 'CAM']: i.update({'quality': 'SD'})
 
-        local = [i for i in self.sources if 'local' in i and i['local'] == True] 
+        local = [i for i in self.sources if 'local' in i and i['local'] == True]
         for i in local: i.update({'language': self._getPrimaryLang() or 'en'})
         self.sources = [i for i in self.sources if not i in local]
 
@@ -665,13 +665,9 @@ class sources:
 
             self.sources[i]['label'] = label.upper()
 
-    if HEVC == 'true':                                                               
-		filter += [i for i in self.sources if 'HEVC' not in ''.join(i['label'])] 
-        
-    if not HEVC == 'true':
-		filter += [i for i in self.sources]
-    self.sources = filter
-    
+        if not HEVC == 'true':
+            self.sources = [i for i in self.sources if not 'HEVC' in str(i['label'])]
+
         return self.sources
 
 

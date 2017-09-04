@@ -133,7 +133,7 @@
         <setting id="provider.netzkino" type="bool" label="NETZKINO" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER" default="true" />
         <setting id="provider.pureanime" type="bool" label="PUREANIME" default="true" />
-        <setting id="provider.serienstream" type="bool" label="SERIENSTREAM" default="true" />
+        <setting id="provider.serienstream" type="bool" label="SERIENSTREAM" default="false" />
         <setting id="provider.seriesever" type="bool" label="SERIESEVER" default="true" />
         <setting id="provider.streamdream" type="bool" label="STREAMDREAM" default="true" />
         <setting id="provider.streamflix" type="bool" label="STREAMFLIX" default="true" />
@@ -206,6 +206,10 @@
         <setting type="lsep" label="Ororo.tv" />
         <setting id="ororo.user" type="text" label="32304" default="" />
         <setting id="ororo.pass" type="text" option="hidden" label="32307" default="" />
+        <setting type="sep" />
+        <setting type="lsep" label="SerienStream.to" />
+        <setting id="serienstream.user" type="text" label="32304" default="" />
+        <setting id="serienstream.pass" type="text" label="32307" default="" />
         <setting type="sep" />
         <setting type="lsep" label="Seriesever.net" />
         <setting id="seriesever.user" type="text" label="32303" default="" />

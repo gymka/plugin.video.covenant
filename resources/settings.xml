@@ -121,6 +121,7 @@
         <setting id="provider.horrorkino" type="bool" label="HORRORKINO" default="true" />
         <setting id="provider.iload" type="bool" label="ILOAD" default="true" />
         <setting id="provider.kinodogs" type="bool" label="KINODOGS" default="true" />
+        <setting id="provider.kinoking" type="bool" label="KINOKING" default="true" />
         <setting id="provider.kinow" type="bool" label="KINOW" default="true" />
         <setting id="provider.kinox" type="bool" label="KINOX" default="true" />
         <setting id="provider.meinkino" type="bool" label="MEINKINO" default="true" />

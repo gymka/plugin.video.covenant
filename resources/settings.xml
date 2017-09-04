@@ -128,6 +128,7 @@
         <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K-AG" default="true" />
         <setting id="provider.movie4k" type="bool" label="MOVIE4K" default="true" />
         <setting id="provider.moviesever" type="bool" label="MOVIESEVER" default="true" />
+        <setting id="provider.movietown" type="bool" label="MOVIETOWN" default="true" />
         <setting id="provider.netzkino" type="bool" label="NETZKINO" default="true" />
         <setting id="provider.proxer" type="bool" label="PROXER" default="true" />
         <setting id="provider.pureanime" type="bool" label="PUREANIME" default="true" />

@@ -148,6 +148,7 @@
         <setting id="provider.streamay" type="bool" label="STREAMAY" default="true" />
         <setting id="provider.streamingseries" type="bool" label="STREAMINGSERIES" default="true" />
         <setting label="Polish" type="lsep" />
+        <setting id="provider.allucpl" type="bool" label="ALLUC" default="true" />
         <setting id="provider.alltube" type="bool" label="ALLTUBE" default="true" />
         <setting id="provider.filmyto" type="bool" label="FILMYTO" default="true" />
         <setting id="provider.filister" type="bool" label="FILISTER" default="true" />

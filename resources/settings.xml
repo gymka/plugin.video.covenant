@@ -125,6 +125,7 @@
         <setting id="provider.kinow" type="bool" label="KINOW" default="true" />
         <setting id="provider.kinox" type="bool" label="KINOX" default="true" />
         <setting id="provider.meinkino" type="bool" label="MEINKINO" default="true" />
+        <setting id="provider.movie2k-ac" type="bool" label="MOVIE2K-AC" default="true" />
         <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K-AG" default="true" />
         <setting id="provider.movie2z" type="bool" label="MOVIE2Z" default="true" />
         <setting id="provider.movie4k" type="bool" label="MOVIE4K" default="true" />

@@ -806,3 +806,7 @@ msgstr ""
 msgctxt "#32570"
 msgid "Show unaired seasons/episodes"
 msgstr ""
+
+msgctxt "#32580"
+msgid "Films/TV Movies"
+msgstr ""

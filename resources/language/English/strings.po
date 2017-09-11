@@ -818,3 +818,7 @@ msgstr ""
 msgctxt "#32373"
 msgid "Force container refresh"
 msgstr ""
+
+msgctxt "#32580"
+msgid "Films/TV Movies"
+msgstr ""

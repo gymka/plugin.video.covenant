@@ -321,7 +321,7 @@ msgstr ""
 
 msgctxt "#32073"
 msgid "[B]TRAKT[/B] : Authorize"
-msgstr "[B]TRAKT[/B]: Authorize"
+msgstr "[B]TRAKT[/B]: Authorise"
 
 msgctxt "#32074"
 msgid "[B]HELP[/B]"
@@ -569,6 +569,14 @@ msgstr ""
 
 msgctxt "#32363"
 msgid "HEVC"
+msgstr ""
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr ""
+
+msgctxt "#32373"
+msgid "Force container refresh"
 msgstr ""
 
 msgctxt "#32401"
@@ -822,3 +830,4 @@ msgstr ""
 msgctxt "#32580"
 msgid "Films/TV Movies"
 msgstr ""
+

@@ -664,7 +664,7 @@ msgstr "Dodaj u [B]Popis gledanja[/B]"
 
 msgctxt "#32519"
 msgid "Remove from [B]Watchlist[/B]"
-msgstr "Ukloni iz B]Popisa gledanja[/B]"
+msgstr "Ukloni iz [B]Popisa gledanja[/B]"
 
 msgctxt "#32520"
 msgid "Add to [B]new List[/B]"

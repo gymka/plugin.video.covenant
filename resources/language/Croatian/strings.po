@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Covenant\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2017-09-14 21:07+0200\n"
+"PO-Revision-Date: 2017-09-15 14:29+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/)\n"
 "MIME-Version: 1.0\n"
@@ -52,7 +52,7 @@ msgstr "Moji filmovi"
 
 msgctxt "#32004"
 msgid "My TV Shows"
-msgstr "Moje tv serije"
+msgstr "Moje TV serije"
 
 msgctxt "#32005"
 msgid "New Movies"
@@ -140,7 +140,7 @@ msgstr "Ponovno snimane TV Serije"
 
 msgctxt "#32026"
 msgid "New TV Shows"
-msgstr "Nove TV Serije"
+msgstr "Nove TV serije"
 
 msgctxt "#32027"
 msgid "TV Calendar"
@@ -196,7 +196,7 @@ msgstr "Popis filmova"
 
 msgctxt "#32040"
 msgid "TV Show Lists"
-msgstr "Popis TV Serija"
+msgstr "Popis TV serija"
 
 msgctxt "#32041"
 msgid "Episode Lists"
@@ -484,7 +484,7 @@ msgstr "Pozadina"
 
 msgctxt "#32338"
 msgid "File Hosting Filters"
-msgstr "Filtri pružatelja datoteka"
+msgstr "Filtri pružatelja sadržaja"
 
 msgctxt "#32339"
 msgid "Max Quality"
@@ -492,11 +492,11 @@ msgstr "Najveća kvaliteta"
 
 msgctxt "#32340"
 msgid "SD Hosters in Auto Play"
-msgstr "SD pružatelji u Automatskoj reprodukciji"
+msgstr "SD pružatelji sadržaja u Automatskoj reprodukciji"
 
 msgctxt "#32341"
 msgid "Hosters with captchas"
-msgstr "Pružatelji sa captchas provjerom"
+msgstr "Pružatelji sadržaja sa captchas provjerom"
 
 msgctxt "#32342"
 msgid "Sort by Provider"
@@ -656,7 +656,7 @@ msgstr "Dodaj u [B]Kolekciju[/B]"
 
 msgctxt "#32517"
 msgid "Remove from [B]Collection[/B]"
-msgstr "Ukloni iz [B]Collection[/B]"
+msgstr "Ukloni iz [B]Kolekcije[/B]"
 
 msgctxt "#32518"
 msgid "Add to [B]Watchlist[/B]"
@@ -676,7 +676,7 @@ msgstr "Dodaj u [B]%s[/B]"
 
 msgctxt "#32522"
 msgid "Remove from [B]%s[/B]"
-msgstr "Ukloni s  [B]%s[/B]"
+msgstr "Ukloni iz  [B]%s[/B]"
 
 msgctxt "#32531"
 msgid "An account already exists."
@@ -708,7 +708,7 @@ msgstr "Ništa nije pronađeno za reprodukciju"
 
 msgctxt "#32538"
 msgid "DEBRID-SERVICE"
-msgstr "DEBRID-SERVIS"
+msgstr "DEBRID-USLUGA"
 
 msgctxt "#32539"
 msgid "Configure Debrid Services in URLResolver Settings."
@@ -732,7 +732,7 @@ msgstr "Filmovi"
 
 msgctxt "#32544"
 msgid "TV"
-msgstr "TV Serije"
+msgstr "TV serije"
 
 msgctxt "#32545"
 msgid "Auto update TV Shows"

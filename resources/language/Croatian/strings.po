@@ -496,7 +496,7 @@ msgstr "SD pružatelji sadržaja u Automatskoj reprodukciji"
 
 msgctxt "#32341"
 msgid "Hosters with captchas"
-msgstr "Pružatelji sadržaja sa captchas provjerom"
+msgstr "Pružatelji sadržaja sa captcha provjerom"
 
 msgctxt "#32342"
 msgid "Sort by Provider"

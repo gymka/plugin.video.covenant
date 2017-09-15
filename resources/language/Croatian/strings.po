@@ -384,7 +384,7 @@ msgstr "Vrijeme isteka izvora"
 
 msgctxt "#32313"
 msgid "Indicators"
-msgstr "Indikatori"
+msgstr "Informacije o gledanju"
 
 msgctxt "#32314"
 msgid "Local"

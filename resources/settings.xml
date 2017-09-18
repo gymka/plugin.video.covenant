@@ -125,6 +125,7 @@
         <setting id="provider.kinoking" type="bool" label="KINOKING" default="true" />
         <setting id="provider.kinow" type="bool" label="KINOW" default="true" />
         <setting id="provider.kinox" type="bool" label="KINOX" default="true" />
+        <setting id="provider.lichtspielhaus" type="bool" label="LICHTSPIELHAUS" default="true" />
         <setting id="provider.movie2k-ac" type="bool" label="MOVIE2K-AC" default="true" />
         <setting id="provider.movie2k-ag" type="bool" label="MOVIE2K-AG" default="true" />
         <setting id="provider.movie2z" type="bool" label="MOVIE2Z" default="true" />

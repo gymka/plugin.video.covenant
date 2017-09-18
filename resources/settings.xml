@@ -108,7 +108,6 @@
         <setting id="provider.xmovies" type="bool" label="XMOVIES" default="true" />
         <setting id="provider.ymovies" type="bool" label="YMOVIES" default="true" />
         <setting label="German" type="lsep" />
-        <setting id="provider.1kino" type="bool" label="1KINO" default="true" />
         <setting id="provider.allucde" type="bool" label="ALLUC" default="true" />
         <setting id="provider.animebase" type="bool" label="ANIMEBASE" default="true" />
         <setting id="provider.animeloads" type="bool" label="ANIMELOADS" default="true" />

@@ -99,6 +99,7 @@
         <setting id="provider.tvbmoviez" type="bool" label="TVBMOVIEZ" default="true" />
         <setting id="provider.twoddl" type="bool" label="TWODDL" default="true" />
         <setting id="provider.watch32" type="bool" label="WATCH32" default="true" />
+        <setting id="provider.watch5s" type="bool" label="WATCH5S" default="true" />
         <setting id="provider.watchfree" type="bool" label="WATCHFREE" default="true" />
         <setting id="provider.watchonline" type="bool" label="WATCHONLINE" default="true" />
         <setting id="provider.watchseries" type="bool" label="WATCHSERIES" default="true" />

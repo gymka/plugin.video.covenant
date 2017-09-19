@@ -7,6 +7,7 @@
 - fixed openmovies
 - updated watchseriesfree
 - alluc scraper fixes
+- fixed/added German scrapers
 
 
 [B]1.1.15[/B]

@@ -102,8 +102,16 @@ class source:
             
             index = sezons.index("Sezon " + season);
             
-            return urls[index];          
-            
+            seasonUrl = urlparse.urljoin(self.base_link, urls[index])          
+            result = client.request(seasonUrl)
+            result = client.parseDOM(result, 'div', attrs={'class': 'episodeLinks'})[0]
+            epUrls = client.parseDOM(result, 'a', ret='href')
+            rows = client.parseDOM(result, 'a')
+            for row in rows:
+                episodeNo = client.parseDOM(row, 'span')[0]
+                episodeNo = episodeNo[:-1]
+                if episodeNo == episode:
+                    return epUrls[rows.index(row)]
         except:
             return
 
@@ -133,7 +141,7 @@ class source:
             ajax_prov = client.parseDOM(result[0], 'meta', attrs={'property': 'provision'}, ret='content')[0]
             
             ajax_url = urlparse.urljoin(self.base_link, self.ajax_link) % ajax_prov
-            h['X-CSRFToken']=re.findall ('csrftoken=(.*?);', cookie)[0]
+            h['X-CSRFToken'] = re.findall ('csrftoken=(.*?);', cookie)[0]
             result = client.request(ajax_url, cookie=cookie, XHR=True, headers=h)
             
             r = client.parseDOM(result, 'div', attrs={'class':'host-container pull-left'})

@@ -241,6 +241,7 @@ class movies:
     def languages(self):
         languages = [
             ('Arabic', 'ar'),
+            ('Bosnian', 'bs'),
             ('Bulgarian', 'bg'),
             ('Chinese', 'zh'),
             ('Croatian', 'hr'),
@@ -257,12 +258,15 @@ class movies:
             ('Italian', 'it'),
             ('Japanese', 'ja'),
             ('Korean', 'ko'),
+            ('Macedonian', 'mk'),
             ('Norwegian', 'no'),
             ('Persian', 'fa'),
             ('Polish', 'pl'),
             ('Portuguese', 'pt'),
             ('Punjabi', 'pa'),
             ('Romanian', 'ro'),
+            ('Serbian', 'sr'),
+            ('Slovenian', 'sl'),
             ('Russian', 'ru'),
             ('Spanish', 'es'),
             ('Swedish', 'sv'),

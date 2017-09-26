@@ -289,6 +289,7 @@ class tvshows:
     def languages(self):
         languages = [
         ('Arabic', 'ar'),
+        ('Bosnian', 'bs'),
         ('Bulgarian', 'bg'),
         ('Chinese', 'zh'),
         ('Croatian', 'hr'),
@@ -312,6 +313,7 @@ class tvshows:
         ('Punjabi', 'pa'),
         ('Romanian', 'ro'),
         ('Russian', 'ru'),
+        ('Serbian', 'sr'),
         ('Spanish', 'es'),
         ('Swedish', 'sv'),
         ('Turkish', 'tr'),

@@ -137,6 +137,7 @@
         <setting id="provider.pureanime" type="bool" label="PUREANIME" default="true" />
         <setting id="provider.serienstream" type="bool" label="SERIENSTREAM" default="false" />
         <setting id="provider.seriesever" type="bool" label="SERIESEVER" default="true" />
+        <setting id="provider.stream-to" type="bool" label="STREAM-TO" default="true" />
         <setting id="provider.streamdream" type="bool" label="STREAMDREAM" default="true" />
         <setting id="provider.streamflix" type="bool" label="STREAMFLIX" default="true" />
         <setting id="provider.streamit" type="bool" label="STREAMIT" default="true" />
